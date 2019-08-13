@@ -33,6 +33,7 @@ Route::get('/blog', 'PostController@index');
 
 
 Route::resource('post', 'PostController2');
+Route::resource('post', 'PostController4');
 
 //Route::get('/students', 'StudentsController@index');
 //Route::get('/students/create', 'StudentsController@create');
